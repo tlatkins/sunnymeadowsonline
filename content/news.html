@@ -1,0 +1,9 @@
+---
+title: News
+---
+{% include _head.html %}
+{% for post in collections.news -%}
+<h3>{{ post.data.title }}, {{ post.data.date }}</h3>
+<p>{{ post.templateContent}}</p>
+{% endfor -%}
+{% include _foot.html %}

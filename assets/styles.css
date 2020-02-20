@@ -1,0 +1,17 @@
+.menu ul {
+	display: flex;
+	background-color: steelblue;
+	width: 100%;
+}
+
+nav ul li {
+	list-style: none;
+	padding: 1.5em;
+}
+
+nav ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .3s;
+}
