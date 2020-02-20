@@ -1,7 +1,6 @@
 {
   "name": "sunnymeadowsonline",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +8,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "@11ty/eleventy": "^0.10.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlatkins/sunnymeadowsonline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tlatkins/sunnymeadowsonline/issues"
+  },
+  "homepage": "https://github.com/tlatkins/sunnymeadowsonline#readme",
+  "description": ""
 }
