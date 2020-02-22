@@ -1,17 +1,66 @@
+:root {
+	--primary-color: steelblue;
+	--secondary-color: green;
+	--background-color: white;
+	--typeface-color: black;
+}
+
+html {
+	color: var(--typeface-color);
+}
+
+body {
+	background: var(--background-color);
+	box-sizing: border-box;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.topbar {
+	display:flex;
+	padding: 0.3rem 2rem;
+	color: var(--background-color);
+	font-family: 'Alegreya Sans';
+	font-size: 1.1rem;
+}
+
+.logowrapper {
+	flex: 1;
+}
+
+
 .menu ul {
 	display: flex;
-	background-color: steelblue;
-	width: 100%;
+	align-content: stretch;
+	align-items: center;
+	justify-content:space-between;
 }
 
-nav ul li {
+.menu li {
+	flex: 1;
 	list-style: none;
-	padding: 1.5em;
+	padding: .3rem 2rem;
 }
 
-nav ul li a {
-	color: #FFFFFF;
+.menu a {
+	color: var(--background-color);
 	text-decoration: none;
 	text-transform: uppercase;
 	transition: .3s;
+}
+
+.hero {
+	width: 100%;
+	height: 400px;
+	background-image: url('/assets/banner-photo.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	position: relative;
+}
+
+h1 {
+	font-family: 'Alegreya Sans';
+}
+footer {
+	text-align: center;
 }
