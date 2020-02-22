@@ -70,11 +70,15 @@ body {
 }
 
 .about {
-	flex 1;
+	flex-basis: 100%;
+	padding-right: 2em;
+}
+
+.mapcontainer {
+	flex-basis: 100%;
 }
 
 .map {
-	flex-basis: 100%;
 	overflow: hidden;
 	padding-bottom: 75%;
 	position: relative;
