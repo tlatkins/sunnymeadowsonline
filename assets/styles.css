@@ -3,16 +3,19 @@
 	--secondary-color: green;
 	--background-color: white;
 	--typeface-color: black;
+	--tupeface-logo: 'Cardo';
+	--typeface-accent: "Raleway";
+	--typeface-main: 'Source Sans Pro', sans-serif;
 }
 
 html {
 	color: var(--typeface-color);
+	font-family: var(--typeface-main);
 }
 
 body {
 	background: var(--background-color);
 	box-sizing: border-box;
-	font-family: 'Source Sans Pro', sans-serif;
 	margin: 0px;
 }
 
@@ -20,11 +23,13 @@ body {
 	display:flex;
 	padding: 0.3rem 2rem;
 	color: var(--background-color);
-	font-family: 'Alegreya Sans';
+	font-family: var(--typeface-accent);
+	text-transform: uppercase;
 	font-size: 1.1rem;
 }
 
 .logowrapper {
+	font-family: var(--tupeface-logo);
 	flex: 1;
 	font-size:2.3rem;
 }
@@ -45,12 +50,11 @@ body {
 .menu a {
 	color: var(--background-color);
 	text-decoration: none;
-	text-transform: uppercase;
 }
 
 .hero {
 	width: 100%;
-	height: 500px;
+	height: 450px;
 	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url('/assets/banner-photo.jpg');
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -60,6 +64,19 @@ body {
 
 .main {
 	margin: 2rem 5%;
+}
+
+a {
+	text-decoration: none;
+	color: var(--secondary-color);
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.fas {
+	color: var(--secondary-color);
 }
 
 .homecontent {
@@ -92,14 +109,42 @@ body {
 	position: absolute;
 }
 
+.download {
+	padding-top: 1rem;
+}
+
+.covenant {
+	overflow: hidden;
+	padding-bottom: 77%;
+	position: relative;
+	height: 0;
+}
+.covenant iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
 h1 {
-	font-family: 'Alegreya Sans';
+	color: var(--primary-color);
+	font-family: var(--typeface-accent);
 }
 footer {
 	text-align: center;
+	padding: 1rem;
 }
 
-@media (max-width: 700px) {
+#nextdoor {
+	background-color: green;
+	padding: 1rem;
+	height: 1.2rem;
+	width: 9rem;
+}
+
+
+@media only screen and (max-width: 800px) {
 	.topbar {
 		flex-wrap: wrap;
 		justify-content: center;
