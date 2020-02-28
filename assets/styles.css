@@ -11,6 +11,7 @@
 html {
 	color: var(--typeface-color);
 	font-family: var(--typeface-main);
+	font-size:100%;
 }
 
 body {
@@ -38,7 +39,8 @@ body {
 	display: flex;
 	align-content: stretch;
 	align-items: center;
-	justify-content:space-between;
+	justify-content:space-around;
+	padding-left: 0rem;
 }
 
 .menu li {
@@ -152,6 +154,7 @@ footer {
 	only screen and (-o-min-device-pixel-ratio: 13/10),
 	only screen and (min-resolution: 120dpi),
 	(max-width: 768px) {
+
 	.topbar {
 		flex-wrap: wrap;
 		justify-content: center;
@@ -159,6 +162,7 @@ footer {
 	.logowrapper {
 		text-align: center;
 		flex-basis: 100%;
+		font-size: 2rem;
 	}
 
 	.homecontent {
