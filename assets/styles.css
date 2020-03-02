@@ -74,7 +74,7 @@ body {
 	color: var(--secondary-color);
 }
 
-a:hover {
+.main a:hover {
 	text-decoration: underline;
 }
 
