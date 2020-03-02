@@ -1,9 +1,12 @@
 ---
 title: News
+layout: layout.html
 ---
-{% include _head.html %}
+
+<!-- Show List of All News Posts -->
+
 {% for post in collections.news -%}
 <h3>{{ post.data.title }}, {{ post.data.date }}</h3>
 <p>{{ post.templateContent}}</p>
 {% endfor -%}
-{% include _foot.html %}
+

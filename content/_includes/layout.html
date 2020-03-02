@@ -1,5 +1,59 @@
-{% include _head.html %}
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>{{ title }}</title>
+</head>
+
+	<!-- Google Analytics -->
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1777529-9"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-1777529-9');
+	</script>
+	
+	<!-- Viewport info for mobile -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Google Fonts -->
+
+	<link href="https://fonts.googleapis.com/css?family=Cardo|Raleway|Source+Sans+Pro&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/3a3b466b49.js" crossorigin="anonymous"></script>
+
+<body>
+
+	<!-- Global Stylesheet for Site -->
+	
+	<link href="/assets/styles.css" rel="stylesheet"/>
+	
+	<!-- Hero Image and Navigation Bar Overlay -->
+	
+	<header class="hero">
+		<section class="topbar">
+			<div class = "logowrapper">Sunny Meadows</div>
+			<nav class="menu">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/covenant">Covenant</a></li>
+					<li><a href="/dues">Dues</a></li>
+				</ul>
+			</nav>
+		</section>
+	</header>
+
 <section class="main">
+
 {{ content }}
+
 </section>
-{% include _foot.html %}
+
+<!-- Footer -->
+
+<footer>&copy; 2020 Sunny Meadows Homeowner's Association</footer>
+</body>
+</html>
