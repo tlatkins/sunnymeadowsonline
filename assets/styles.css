@@ -152,6 +152,10 @@ footer {
 	width: 25%;
 }
 
+.obfuscate {
+	unicode-bidi: bidi-override; direction: rtl;
+}
+
 @media all and (-webkit-min-device-pixel-ratio: 2.1),
 	all and (-o-min-device-pixel-ratio: 13/10),
 	all and (min-resolution: 120dpi),
