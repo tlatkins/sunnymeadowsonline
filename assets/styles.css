@@ -152,9 +152,8 @@ footer {
 	width: 25%;
 }
 
-.obfuscate {
-	unicode-bidi: bidi-override;
-	direction: rtl;
+.hide {
+	display: none;
 }
 
 @media all and (-webkit-min-device-pixel-ratio: 2.1),
