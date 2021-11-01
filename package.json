@@ -8,7 +8,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0"
   },
@@ -20,5 +19,5 @@
     "url": "https://github.com/tlatkins/sunnymeadowsonline/issues"
   },
   "homepage": "https://github.com/tlatkins/sunnymeadowsonline#readme",
-  "description": ""
+  "description": "Sunny Meadows Neighborhood Website"
 }
