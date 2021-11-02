@@ -48,7 +48,7 @@ body {
 	flex: 1;
 	list-style: none;
 	padding: .3rem 2rem;
-	font-weight: bold;
+	font-weight: bolder;
 }
 
 .topbar a {
