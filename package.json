@@ -14,6 +14,13 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6"
   },
+  "overrides": {
+    "gray-matter": {
+      "js-yaml": "^3.15.0"
+    },
+    "minimatch": "^10.2.4",
+    "liquidjs": "^10.27.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tlatkins/sunnymeadowsonline.git"
