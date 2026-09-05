@@ -3,10 +3,9 @@ layout: layout.html
 title: Dues
 ---
 
-<article>
-    <h1>{{title}}</h1>
+<article class="card">
     <div>There are mandatory dues that are billed to all residents of Sunny Meadows each January:</div>
-    <ul>
+    <ul class="dues-list">
         <li>Dues are $60 per year.</li>
         <li>A $20 late fee will be assessed for all past-due invoices.</li>
     </ul>
@@ -15,15 +14,13 @@ title: Dues
     <p></p>
 
     <div>For questions about dues, please contact Jason Meredith at <script type="text/javascript">
-	document.write("<n uers=\"znvygb:wnfba@zfpsb.pbz\" ery=\"absbyybj\">wnfba@zfpsb.pbz</n>".replace(/[a-zA-Z]/g, 
+	document.write("<n uers=\"znvygb:wnfba@zfpsb.pbz\" ery=\"absbyybj\">wnfba@zfpsb.pbz</n>".replace(/[a-zA-Z]/g,
 	function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
 </script>.</div>
 
-    <p></p>
-
 	<!-- Paypal Buttons for Payment -->
 
-    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <form class="dues-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
         <input type="hidden" name="cmd" value="_s-xclick">
         <input type="hidden" name="hosted_button_id" value="D88L4Y95ZPYSS">
         <table>
@@ -32,5 +29,5 @@ title: Dues
         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
         <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
     </form>
-    
+
 </article>
