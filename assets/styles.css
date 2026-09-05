@@ -82,6 +82,8 @@ button:focus-visible,
 
 .logowrapper {
 	font-family: var(--typeface-logo);
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
 	flex: 1;
 	font-size: 1.9rem;
 	order: 1;
@@ -165,7 +167,7 @@ button:focus-visible,
 	width: 100%;
 	height: clamp(340px, 42vw, 480px);
 	background-image: linear-gradient(180deg, rgba(10, 20, 15, 0.35), rgba(10, 20, 15, 0.58)), url('/assets/hero.jpg');
-	background-position: center;
+	background-position: center 75%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
@@ -288,6 +290,10 @@ button:focus-visible,
 	color: var(--color-primary);
 }
 
+.btn .fas {
+	color: inherit;
+}
+
 h1, h2, h3 {
 	font-family: var(--typeface-accent);
 	color: var(--color-primary);
@@ -339,7 +345,7 @@ h1, h2, h3 {
 }
 
 .download {
-	padding-top: 1rem;
+	margin-top: 1rem;
 }
 
 .covenant {
