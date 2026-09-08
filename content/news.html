@@ -6,8 +6,11 @@ layout: layout.html
 <!-- Show List of All News Posts -->
 
 {% for post in collections.news -%}
-<h3>{{ post.data.title }}, {{ post.data.date }}</h3>
-<p>{{ post.templateContent}}</p>
+<article class="news-item">
+    <span class="news-date">{{ post.data.date }}</span>
+    <h3>{{ post.data.title }}</h3>
+    {{ post.templateContent}}
+</article>
 {% endfor -%}
 
 <!-- TODO: Format post date above. Will require JavaScript. -->
