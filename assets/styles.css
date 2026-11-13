@@ -311,7 +311,7 @@ h1, h2, h3 {
 	display: grid;
 	grid-template-columns: 1.1fr 1fr;
 	gap: var(--space-4);
-	align-items: start;
+	align-items: stretch;
 }
 
 .about p {
@@ -320,6 +320,8 @@ h1, h2, h3 {
 
 .mapcontainer {
 	padding: var(--space-2);
+	display: flex;
+	flex-direction: column;
 }
 
 .mapcontainer h2 {
@@ -329,9 +331,9 @@ h1, h2, h3 {
 
 .map {
 	overflow: hidden;
-	padding-bottom: 75%;
 	position: relative;
-	height: 0;
+	flex: 1;
+	min-height: 220px;
 	border-radius: var(--radius);
 }
 
